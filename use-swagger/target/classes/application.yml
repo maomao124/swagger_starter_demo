@@ -1,0 +1,26 @@
+swagger:
+  # 是否启用swagger
+  enabled: true
+  title: 在线文档
+  group: 默认组
+  version: 0.0.1
+  contact:
+    name: mao
+    url: https://github.com/maomao124/
+    email: 1234@qq.com
+  base-package: mao.useswagger
+  # 分组文档
+#  docket:
+#    user:
+#      title: 用户模块
+#      base-package:
+#    menu:
+#      title: 菜单模块
+#      base-package:
+
+
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
